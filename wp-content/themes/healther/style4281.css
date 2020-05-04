@@ -1,0 +1,51 @@
+/*!
+Theme Name: Healther
+Theme URI:
+Author: Zemez
+Author URI:
+Description: Kava child theme.
+Template: kava
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: healther
+*/
+
+/*Footer*/
+.site-footer .jet-posts__inner-box,
+.site-footer .jet-posts__inner-content {
+	display: flex;
+}
+.site-footer .jet-posts__inner-content {
+	flex-direction: column;
+}
+.site-footer .post-meta {
+	order: 1;
+}
+.site-footer .post-thumbnail {
+	width: 41%;
+}
+
+/*elementor button*/
+body .elementor-button:focus,
+body .elementor-button:hover,
+body .elementor-button:visited {
+	opacity: 1;
+}
+
+/*Custom styles for jet modules*/
+.custom-list.elementor-widget-icon-list .elementor-icon-list-item {
+	display: block;
+}
+.elementor-icon-list-text {
+	display: flex;
+	justify-content: space-between;
+}
+.elementor-image-box-description span {
+	display: block;
+	width: 33px;
+	height: 2px;
+	margin: 33px 0 6px;
+	background-color: white;
+	opacity: .4;
+}
